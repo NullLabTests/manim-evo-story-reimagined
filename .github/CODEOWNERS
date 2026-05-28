@@ -1,0 +1,20 @@
+# Repository Maintainers
+# The designated maintainer agent (and human maintainers) are responsible for:
+# - Keeping documentation and chapter descriptions in sync with the canonical project
+# - Reviewing and merging video generation, audio, and overlay contributions
+# - Maintaining professional standards for the final cinematic output
+
+*       @NullLabTests
+
+# Documentation
+docs/           @NullLabTests
+README.md       @NullLabTests
+
+# Video & Prompt Core
+video_project/  @NullLabTests
+
+# Audio & Assembly
+video_project/generate_voiceover.py   @NullLabTests
+video_project/generate_sounds.py      @NullLabTests
+video_project/generate_music.py       @NullLabTests
+video_project/assemble*.py            @NullLabTests
