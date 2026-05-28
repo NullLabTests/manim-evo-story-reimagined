@@ -15,10 +15,11 @@ secrets/
 
 # ─── Generated Video / Media Output ───────────────────────────────────────
 # All generated videos should live in media/ and NOT be committed
-media/
+media/videos/
+media/tex/
+media/text/
 output_videos/
 generated/
-*.mp4
 *.mov
 *.avi
 *.webm

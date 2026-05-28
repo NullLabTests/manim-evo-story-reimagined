@@ -1,5 +1,7 @@
 # Contributing
 
+> **This project is archived.** No new contributions are being accepted. The code and generated clips remain here as a reference for anyone experimenting with AI video generation pipelines.
+
 Thanks for your interest in improving this project! Contributions of all kinds are welcome.
 
 ## How to Contribute
