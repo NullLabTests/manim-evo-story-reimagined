@@ -251,10 +251,10 @@ CHAPTER_NAMES = {
 
 def list_chapters():
     """Print all available chapters with their descriptions."""
-    print(f"\n  {'Chapter':<20s} {'Title':<40s}")
-    print(f"  {'-'*20s} {'-'*40s}")
+    print(f"\n  {'Chapter':<20} {'Title':<40}")
+    print(f"  {'-'*20} {'-'*40}")
     for key, title in CHAPTER_NAMES.items():
-        print(f"  {key:<20s} {title:<40s}")
+        print(f"  {key:<20} {title:<40}")
     print()
 
 
