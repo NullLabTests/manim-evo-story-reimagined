@@ -1,5 +1,10 @@
 # ─── API Keys & Secrets ────────────────────────────────────────────────────
-# NEVER commit your xAI API key! Copy x_key.example to x_key.txt locally.
+# NEVER commit your xAI API key!
+# Supported locations (all gitignored):
+#   - X_KEY (one-line file in project root, as documented)
+#   - x_key.txt
+#   - .env / .env.local (XAI_API_KEY=...)
+X_KEY
 x_key.txt
 .env
 .env.*

@@ -28,19 +28,38 @@ MEDIA_DIR = Path(__file__).parent.parent / "media" / "scenes"
 
 
 def load_api_key(path=None):
+    """Load xAI API key from multiple supported locations.
+
+    Priority:
+    1. XAI_API_KEY environment variable
+    2. X_KEY file (one-line, project root) - preferred documented method
+    3. x_key.txt file (legacy location)
+    """
+    # 1. Environment variable (most secure for CI / production)
+    env_key = os.environ.get("XAI_API_KEY")
+    if env_key and env_key.strip():
+        return env_key.strip()
+
+    # 2. X_KEY (one-line file) - the documented user-friendly method
+    x_key_path = Path(__file__).parent.parent / "X_KEY"
+    if x_key_path.exists():
+        key = x_key_path.read_text().strip()
+        if key:
+            return key
+
+    # 3. Fallback to x_key.txt for compatibility
     path = Path(path or DEFAULT_KEY_PATH)
-    if not path.exists():
-        raise FileNotFoundError(
-            f"API key not found at {path}. "
-            f"Copy x_key.example to {path.name} and paste your key."
-        )
-    key = path.read_text().strip()
-    if not key or key.startswith("xai-"):
-        raise ValueError(
-            f"Invalid key in {path}. "
-            f"Replace it with your actual xAI API key."
-        )
-    return key
+    if path.exists():
+        key = path.read_text().strip()
+        if key:
+            return key
+
+    raise FileNotFoundError(
+        "No xAI API key found.\n"
+        "Set XAI_API_KEY env var, or place your key (one line) in a file named X_KEY "
+        "or x_key.txt in the project root.\n"
+        "See x_key.example for the expected format."
+    )
 
 
 class GrokClient:
