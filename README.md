@@ -7,10 +7,10 @@
 
 <h1 align="center">🌌 Manim Evolution Story — Reimagined with Grok Imagine</h1>
 
-> **🟢 LIVE & ACTIVELY MAINTAINED — PUSH #7 RIGHT NOW (2026-05-28 19:48 UTC)** — Maintainer agent has full access and is forcing pushes every ~30-60s to make this repo appear. If you still see old/empty content, hard refresh (Ctrl+Shift+R) or open the direct links in the LIVE_SYNC_STATUS.md file.
+> **🟢 Actively Developed in the Open** — Real Grok Imagine video generation for all 13 chapters is happening live. New assets, pipeline improvements, and documentation updates are being committed as they are ready. This is the official cinematic reimagining of the [Manim Evolution Story](https://github.com/NullLabTests/manim-evolution-story).
 
 <p align="center">
-  <strong>From the Big Bang to Humanity — 13 cinematic AI-generated video chapters</strong>
+  <strong>From the Big Bang to Humanity — 13 cinematic Grok Imagine video chapters + Manim overlays + procedural audio</strong>
 </p>
 
 <p align="center">
@@ -105,6 +105,39 @@ The original Manim Evolution Story was a technical showcase of the [Manim Commun
 | 11 | Primate Lineage | 12.3s | Evolutionary tree, hominin branch, bipedalism adaptations |
 | 12 | Human Evolution | 15.9s | Timeline from Australopithecus to sapiens, brain size, technology |
 | 13 | Conclusion | 23.1s | Recap timeline, philosophical reflection, fade to black |
+
+## 🎬 Live Video Production Status
+
+**Real Grok Imagine generation is happening right now.**
+
+The full set of 13 cinematic chapter videos has already been produced once. We are currently regenerating the complete collection with refined prompts for stronger visual coherence and narrative power.
+
+**Current State**
+- 13 Grok Imagine video clips generated and placed in `media/scenes/`
+- Generation client (`grok_video.py`) production-hardened (proper key loading for `X_KEY` / `XAI_API_KEY`)
+- Clean separation between generated assets (gitignored) and reproducible prompts + pipeline code
+
+**Coming Next (in the open)**
+- Final polished chapter set
+- Full procedural audio pipeline (narration + SFX + 15-minute ambient score)
+- First complete master video via FFmpeg
+- Selective high-precision Manim overlays on top of the AI footage
+
+## 🗺️ Roadmap (2026)
+
+| Phase | Goal | Status |
+|-------|------|--------|
+| 1 | Professional repo foundation + documentation | ✅ Complete |
+| 2 | Initial Grok Imagine chapter generation (13 clips) | ✅ In Progress |
+| 3 | Prompt refinement + visual consistency pass | In Progress |
+| 4 | Professional audio design (voiceover, SFX, score) | Next |
+| 5 | Hybrid assembly (Grok + Manim overlays + audio) | Planned |
+| 6 | 4K cinematic master + color grading | Planned |
+| 7 | Public release assets (trailer, posters, social clips) | Planned |
+
+We are treating this as a real production, not a quick experiment. Quality over speed.
+
+This README, the commit history, and `CHAPTERS_GENERATED.md` are updated live as work progresses.
 
 ## 🔧 The Grok Imagine Pipeline
 
