@@ -7,6 +7,8 @@
 
 <h1 align="center">🌌 Manim Evolution Story — Reimagined with Grok Imagine</h1>
 
+> **🟢 LIVE & ACTIVELY MAINTAINED** — This repository is the official Grok Imagine reimagining. The maintainer agent is monitoring the canonical source in real time and pushing changes **immediately** as they occur. Last sync: 2026-05-28 19:46 UTC. See commit history for continuous updates.
+
 <p align="center">
   <strong>From the Big Bang to Humanity — 13 cinematic AI-generated video chapters</strong>
 </p>
