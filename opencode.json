@@ -1,0 +1,43 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "NullLabTests",
+  "instructions": ["AGENTS.md", "README.md"],
+  "agent": {
+    "video-creator": {
+      "description": "Creates and iterates on Grok Imagine video chapters for the Evolution Story reimagined project.",
+      "mode": "subagent",
+      "model": "openrouter/anthropic/claude-sonnet-4-6",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      },
+      "prompt": "You are a video creation agent for the Manim Evolution Story Reimagined project. Your job is to generate Grok Imagine video content for the 13 evolution chapters. Use the grok CLI and Python scripts in video_project/ to generate AI videos. The API key is in x_key.txt. Generate cinematic footage from the Big Bang to Humanity."
+    },
+    "audio-designer": {
+      "description": "Creates and iterates on procedural audio (voiceover, sound effects, music) for the Evolution Story.",
+      "mode": "subagent",
+      "model": "openrouter/anthropic/claude-sonnet-4-6",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
+      },
+      "prompt": "You are an audio design agent for the Manim Evolution Story Reimagined project. Your job is to generate the audio pipeline: voiceover narration with edge-tts, procedural sound effects with SciPy, and background music. Use the scripts in video_project/ for generation."
+    }
+  },
+  "command": {
+    "render": {
+      "description": "Run the full render pipeline",
+      "prompt": "Run the full render pipeline: python video_project/render_pipeline.py --full"
+    },
+    "generate-chapter": {
+      "description": "Generate a specific video chapter with Grok Imagine",
+      "prompt": "Run python video_project/generate_chapter.py with the given chapter number and options"
+    }
+  }
+}

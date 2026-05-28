@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#448AFF"/>
+      <stop offset="30%" stop-color="#4CAF50"/>
+      <stop offset="70%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" fill="url(#bg)" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" fill="#FFD700" font-size="18" font-weight="bold">From the Big Bang to You</text>
+  <text x="450" y="56" text-anchor="middle" fill="#8899aa" font-size="11">13.8 Billion Years in 4 Minutes · 13 Chapters</text>
+
+  <!-- Main timeline line -->
+  <line x1="50" y1="240" x2="870" y2="240" stroke="url(#line-grad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Timeline arrow -->
+  <polygon points="865,234 878,240 865,246" fill="#FFD700"/>
+
+  <!-- Chapter markers and labels - organized in alternating rows above and below -->
+  <!-- Row 1: Chapters 1-7 (above line) -->
+  <!-- Row 2: Chapters 8-13 (below line) -->
+
+  <!-- Ch 1: Title -->
+  <circle cx="80" cy="240" r="8" fill="#448AFF" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="80" y="218" text-anchor="middle" fill="#448AFF" font-size="9" font-weight="bold">1</text>
+  <text x="80" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Title</text>
+
+  <!-- Ch 2: Big Bang -->
+  <circle cx="155" cy="240" r="8" fill="#448AFF" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="155" y="218" text-anchor="middle" fill="#448AFF" font-size="9" font-weight="bold">2</text>
+  <text x="155" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Big Bang</text>
+
+  <!-- Ch 3: Stars -->
+  <circle cx="230" cy="240" r="8" fill="#448AFF" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="230" y="218" text-anchor="middle" fill="#448AFF" font-size="9" font-weight="bold">3</text>
+  <text x="230" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Stars</text>
+
+  <!-- Ch 4: Solar System -->
+  <circle cx="310" cy="240" r="8" fill="#7C4DFF" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="310" y="218" text-anchor="middle" fill="#7C4DFF" font-size="9" font-weight="bold">4</text>
+  <text x="310" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Solar System</text>
+
+  <!-- Ch 5: Origin of Life -->
+  <circle cx="395" cy="240" r="8" fill="#4CAF50" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="395" y="218" text-anchor="middle" fill="#4CAF50" font-size="9" font-weight="bold">5</text>
+  <text x="395" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Origin of Life</text>
+
+  <!-- Ch 6: Great Oxidation -->
+  <circle cx="475" cy="240" r="8" fill="#42A5F5" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="475" y="218" text-anchor="middle" fill="#42A5F5" font-size="9" font-weight="bold">6</text>
+  <text x="475" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Great Oxidation</text>
+
+  <!-- Ch 7: Eukaryotes -->
+  <circle cx="550" cy="240" r="8" fill="#E040FB" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="550" y="218" text-anchor="middle" fill="#E040FB" font-size="9" font-weight="bold">7</text>
+  <text x="550" y="208" text-anchor="middle" fill="#cccccc" font-size="8">Eukaryotes</text>
+
+  <!-- Ch 8: Cambrian -->
+  <circle cx="620" cy="240" r="8" fill="#FF8A65" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="620" y="262" text-anchor="middle" fill="#FF8A65" font-size="9" font-weight="bold">8</text>
+  <text x="620" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Cambrian</text>
+
+  <!-- Ch 9: Sea to Land -->
+  <circle cx="685" cy="240" r="8" fill="#4CAF50" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="685" y="262" text-anchor="middle" fill="#4CAF50" font-size="9" font-weight="bold">9</text>
+  <text x="685" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Sea → Land</text>
+
+  <!-- Ch 10: Mammals -->
+  <circle cx="745" cy="240" r="8" fill="#FFCC80" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="745" y="262" text-anchor="middle" fill="#FFCC80" font-size="9" font-weight="bold">10</text>
+  <text x="745" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Mammals</text>
+
+  <!-- Ch 11: Primates -->
+  <circle cx="795" cy="240" r="8" fill="#FFCC80" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="795" y="262" text-anchor="middle" fill="#FFCC80" font-size="9" font-weight="bold">11</text>
+  <text x="795" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Primates</text>
+
+  <!-- Ch 12: Humans -->
+  <circle cx="840" cy="240" r="8" fill="#FFD700" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="840" y="262" text-anchor="middle" fill="#FFD700" font-size="9" font-weight="bold">12</text>
+  <text x="840" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Humans</text>
+
+  <!-- Ch 13: Conclusion -->
+  <circle cx="868" cy="240" r="8" fill="#FFD700" stroke="#0a0a1a" stroke-width="2"/>
+  <text x="868" y="262" text-anchor="middle" fill="#FFD700" font-size="9" font-weight="bold">13</text>
+  <text x="868" y="274" text-anchor="middle" fill="#cccccc" font-size="8">Conclusion</text>
+
+  <!-- Era bands -->
+  <rect x="50" y="290" width="260" height="16" fill="#448AFF" opacity="0.15" rx="3"/>
+  <text x="180" y="302" text-anchor="middle" fill="#448AFF" font-size="8">Cosmic Era</text>
+
+  <rect x="310" y="290" width="240" height="16" fill="#4CAF50" opacity="0.15" rx="3"/>
+  <text x="430" y="302" text-anchor="middle" fill="#4CAF50" font-size="8">Biological Era</text>
+
+  <rect x="550" y="290" width="320" height="16" fill="#FFD700" opacity="0.15" rx="3"/>
+  <text x="710" y="302" text-anchor="middle" fill="#FFD700" font-size="8">Complex Life Era</text>
+
+  <!-- Stats section -->
+  <rect x="50" y="340" width="810" height="155" fill="#ffffff" opacity="0.04" rx="8"/>
+
+  <!-- Stats grid -->
+  <text x="100" y="368" fill="#8899aa" font-size="9">ENGINE</text>
+  <text x="100" y="384" fill="#ffffff" font-size="12" font-weight="bold">Manim Community v0.19+</text>
+
+  <text x="300" y="368" fill="#8899aa" font-size="9">DURATION</text>
+  <text x="300" y="384" fill="#ffffff" font-size="12" font-weight="bold">4 minutes 1 second</text>
+
+  <text x="500" y="368" fill="#8899aa" font-size="9">RESOLUTION</text>
+  <text x="500" y="384" fill="#ffffff" font-size="12" font-weight="bold">854×480 (4K upscale demo)</text>
+
+  <text x="700" y="368" fill="#8899aa" font-size="9">FRAME RATE</text>
+  <text x="700" y="384" fill="#ffffff" font-size="12" font-weight="bold">15 fps (60 fps capable)</text>
+
+  <line x1="80" y1="395" x2="830" y2="395" stroke="#ffffff" opacity="0.06"/>
+
+  <text x="100" y="420" fill="#8899aa" font-size="9">ANIMATION CLASSES</text>
+  <text x="100" y="436" fill="#4FC3F7" font-size="10">FadeIn · FadeOut · Write · Create · GrowFromCenter</text>
+  <text x="100" y="452" fill="#4FC3F7" font-size="10">DrawBorderThenFill · ReplacementTransform · UpdateFromAlphaFunc</text>
+
+  <text x="580" y="420" fill="#8899aa" font-size="9">MOBJECTS</text>
+  <text x="580" y="436" fill="#81C784" font-size="10">Text · Dot · Circle · Line · VGroup · Rectangle</text>
+  <text x="580" y="452" fill="#81C784" font-size="10">Ellipse · Polygon · NumberPlane · Arrow · Square</text>
+
+  <text x="100" y="478" fill="#666" font-size="8">https://github.com/NullLabTests/manim-evolution-story</text>
+</svg>

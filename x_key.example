@@ -1,0 +1,8 @@
+# xAI Grok Imagine API Key
+# Copy this file to x_key.txt and paste your API key below.
+# Get your key at: https://console.x.ai/
+#
+# Example:
+#   cp x_key.example x_key.txt
+#   # then edit x_key.txt with your actual key
+xai-your-api-key-here

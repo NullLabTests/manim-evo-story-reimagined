@@ -1,0 +1,100 @@
+# ─── API Keys & Secrets ────────────────────────────────────────────────────
+# NEVER commit your xAI API key! Copy x_key.example to x_key.txt locally.
+x_key.txt
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# ─── Generated Video / Media Output ───────────────────────────────────────
+# All generated videos should live in media/ and NOT be committed
+media/
+output_videos/
+generated/
+*.mp4
+*.mov
+*.avi
+*.webm
+*.mkv
+
+# ─── Audio / Sound Assets ─────────────────────────────────────────────────
+# Generated audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+video_project/sounds/
+video_project/voiceover/
+background_music*.wav
+
+# ─── Manim Generated Output ───────────────────────────────────────────────
+media/videos/
+media/tex/
+media/text/
+manim_cache/
+manim_*.log
+
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.whl
+
+# ─── Virtual Environments ─────────────────────────────────────────────────
+.venv/
+venv/
+env/
+virtualenv/
+
+# ─── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── IDE & Editors ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.Directory
+
+# ─── OS Files ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.bak
+*.orig
+
+# ─── Temp / Working ───────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.log
+*.cache
+
+# ─── Large Binaries / Assets ──────────────────────────────────────────────
+# Do not commit large model weights or heavy assets
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+assets/*_4k.*
+assets/*_4K.*

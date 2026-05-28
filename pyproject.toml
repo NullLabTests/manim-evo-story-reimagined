@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "manim-evo-story-reimagined"
+version = "1.0.0"
+description = "From the Big Bang to Humanity — 13 cinematic AI-generated video chapters powered by xAI Grok Imagine. Manim overlays, procedural audio, FFmpeg assembly."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["xai", "grok-imagine", "manim", "evolution", "ai-video", "educational", "ffmpeg"]
+authors = [{name = "NullLabTests"}]
+
+dependencies = [
+    "manim>=0.19.0,<2.0.0",
+    "numpy>=1.22.0,<2.0.0",
+    "httpx>=0.27.0,<1.0.0",
+    "Pillow>=10.0.0",
+    "edge-tts>=6.0.0",
+    "scipy>=1.10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[tool.setuptools.packages.find]
+where = ["scripts"]

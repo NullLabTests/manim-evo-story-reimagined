@@ -1,0 +1,25 @@
+# Auto-detect text files
+* text=auto
+
+# Source code
+*.py text diff=python
+*.yml text
+*.yaml text
+*.md text
+*.txt text
+*.cfg text
+*.ini text
+*.toml text
+
+# Assets
+*.svg text
+*.png binary
+*.gif binary
+
+# Media
+*.mp4 binary
+*.wav binary
+
+# Git
+*.gitattributes text
+*.gitignore text
