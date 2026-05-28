@@ -41,3 +41,4 @@ The maintainer agent will continue pushing visible changes frequently until you 
 
 ---
 *This file is intentionally at the root so it appears immediately in the GitHub file listing.*
+Push #8 at 19:47:17 UTC - forcing UI visibility
