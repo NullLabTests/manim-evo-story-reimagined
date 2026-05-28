@@ -18,12 +18,11 @@
   <a href="https://ffmpeg.org/"><img src="https://img.shields.io/badge/FFmpeg-6.1-007808?logo=ffmpeg&logoColor=white" alt="FFmpeg"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
   <br>
-  <a href="#-chapters"><img src="https://img.shields.io/badge/Chapters-13-4CAF50" alt="Chapters"></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick%20Start-Guide-blue" alt="Quick Start"></a>
-  <a href="#-the-grok-imagine-pipeline"><img src="https://img.shields.io/badge/Pipeline-Grok%20Imagine-FF6F00" alt="Pipeline"></a>
-  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined"><img src="https://img.shields.io/github/repo-size/NullLabTests/manim-evo-story-reimagined?logo=github" alt="Repo size"></a>
-  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined/commits/main"><img src="https://img.shields.io/github/last-commit/NullLabTests/manim-evo-story-reimagined?logo=github" alt="Last commit"></a>
-  <a href="https://x.com/NullLabTests"><img src="https://img.shields.io/badge/Follow-@NullLabTests-1DA1F2?logo=x&logoColor=white" alt="X / Twitter"></a>
+  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined/actions"><img src="https://img.shields.io/github/actions/workflow/status/NullLabTests/manim-evo-story-reimagined/ci.yml?branch=main&label=CI&logo=githubactions" alt="CI"></a>
+  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined/releases"><img src="https://img.shields.io/badge/Duration-4m%2001s-0891b2" alt="Video Length"></a>
+  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined/commits/main"><img src="https://img.shields.io/github/last-commit/NullLabTests/manim-evo-story-reimagined" alt="Last Commit"></a>
+  <a href="https://github.com/NullLabTests/manim-evo-story-reimagined"><img src="https://img.shields.io/badge/Chapters-13-4CAF50" alt="Chapters"></a>
+  <a href="https://docs.manim.community/"><img src="https://img.shields.io/badge/Manim%20%2B%20Grok%20Features-hybrid%20pipeline-FF6F00" alt="Features"></a>
 </p>
 
 <p align="center">
@@ -32,6 +31,21 @@
 
 <p align="center">
   <img src="assets/chapter-timeline.svg" alt="Chapter timeline: 13 chapters spanning 13.8 billion years" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/preview_title.gif" alt="Title scene animation preview" width="45%">
+  <img src="assets/preview_bigbang.gif" alt="Big Bang scene animation preview" width="45%">
+  <br>
+  <em>Title sequence (left) and Big Bang cosmic inflation (right) — Grok Imagine cinematic previews</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="assets/scene_thumbs.png" alt="Thumbnail overview of all 13 scenes" width="100%">
+  <br>
+  <em>All 13 chapters at a glance — from the Big Bang to modern humanity (AI-reimagined)</em>
 </p>
 
 ---
@@ -74,21 +88,21 @@ The original Manim Evolution Story was a technical showcase of the [Manim Commun
 
 ## 📋 Chapters
 
-| # | Chapter | Duration | Description |
-|---|---------|----------|-------------|
-| 1 | Title | ~30s | Opening starfield and title sequence |
-| 2 | Big Bang | ~18s | Singularity, cosmic inflation, first particles |
-| 3 | Star Formation | ~22s | Nebulae, protostars, nuclear fusion |
-| 4 | Solar System | ~18s | Planetary accretion, orbital mechanics |
-| 5 | Origin of Life | ~17s | Primordial soup, first cell, LUCA |
-| 6 | Great Oxidation | ~16s | Cyanobacteria, O₂, rust, mass extinction |
-| 7 | Eukaryotes | ~15s | Endosymbiosis, nucleus, complex cells |
-| 8 | Cambrian Explosion | ~18s | Body plan diversification, tree of life |
-| 9 | Sea to Land | ~14s | Tiktaalik, tetrapod transition |
-| 10 | Rise of Mammals | ~21s | Asteroid impact, mammal diversification |
-| 11 | Primate Lineage | ~12s | Evolutionary tree, hominin branch |
-| 12 | Human Evolution | ~16s | Timeline: Australopithecus to sapiens |
-| 13 | Conclusion | ~23s | Recap, philosophical reflection |
+| # | Scene | Duration | Description |
+|---|-------|----------|-------------|
+| 1 | Title | 30.9s | Opening starfield and title sequence with twinkling stars |
+| 2 | Big Bang | 18.0s | Singularity, cosmic inflation, first particles, fundamental forces |
+| 3 | Star Formation | 22.1s | Nebulae, protostars, nuclear fusion, element creation |
+| 4 | Solar System | 17.7s | Planetary accretion, orbital mechanics, Earth forms |
+| 5 | Origin of Life | 16.9s | Primordial soup, chemical reactions, first cell, LUCA |
+| 6 | Great Oxidation | 15.7s | Cyanobacteria, O₂ bubbles, rust, mass extinction |
+| 7 | Eukaryotes | 14.9s | Endosymbiosis, nucleus, mitochondria, complex cells |
+| 8 | Cambrian Explosion | 18.1s | Body plan diversification, Burgess Shale, tree of life |
+| 9 | Sea to Land | 14.4s | Tiktaalik, tetrapod transition, plant colonization |
+| 10 | Rise of Mammals | 21.3s | Asteroid impact, dinosaur extinction, mammal diversification |
+| 11 | Primate Lineage | 12.3s | Evolutionary tree, hominin branch, bipedalism adaptations |
+| 12 | Human Evolution | 15.9s | Timeline from Australopithecus to sapiens, brain size, technology |
+| 13 | Conclusion | 23.1s | Recap timeline, philosophical reflection, fade to black |
 
 ## 🔧 The Grok Imagine Pipeline
 
